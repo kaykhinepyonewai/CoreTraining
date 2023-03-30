@@ -1,0 +1,327 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.navbar {
+    /*background: linear-gradient(#8c9696, #114527);*/
+    background: linear-gradient(#8c9696, #8ed1aa);
+    /*#e4ede8*/
+    /*#298f54*/
+}
+
+    .navbar ul li .nav-link:hover {
+        color: #db8512;
+    }
+
+    .navbar .dropdown-menu {
+        background: linear-gradient(#8c9696, #8ed1aa);
+    }
+
+    .navProfile {
+        width: 30px;
+        height: 30px;
+        border-top-right-radius: 90%;
+        border-top-left-radius: 90%;
+    }
+
+.font {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    animation: shake 4s;
+}
+
+.profileImage {
+    width: 60px;
+    height: 60px;
+}
+
+
+.navbar li:last-child {
+    margin-top: -2px;
+}
+
+.dropdown-toggle::after {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+body {
+    /*background: linear-gradient(#b1c6c9, #114527);*/
+    background: linear-gradient( #114527, #878787);
+    color: #db8512;
+    /*  color: #915401;*/
+}
+
+footer {
+    /*margin-top: 150px;*/
+    color: #ed1a2c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.card {
+    background: linear-gradient(#476363, #114527);
+    margin-top: 6rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header 
+{
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: #db8512;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-2.5px);
+}
+
+input:hover {
+    transform: translateX(-2.5px);
+}
+
+.btn-primary {
+    background-color: #114527;
+    border-color: #5f9c93;
+}
+
+.btn-primary:hover 
+{
+      background-color: #d5e6e6;
+      border-color: #114527;
+      /*color: #db8512;*/
+      color: black;
+    }
+
+.icon {
+    font-size: 14px;
+}
+
+a {
+    color: #b1c6c9;
+    text-decoration: none;
+}
+
+a:hover {
+        color: #db8512;
+    }
+
+
+.login {
+    margin-bottom: 150px;
+}
+
+/*
+Region Forgot Password*/
+.forgotForm {
+    background: linear-gradient(#476363, #114527);
+    margin-top: 150px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*End Forgot Password*/
+
+
+/*User index's model box*/
+
+#viewModal 
+{
+    background: linear-gradient(#b1c6c9, #114527);
+}
+
+    #viewModal .modal-content {
+        /*background: linear-gradient(#8c95a3, #114527);*/
+        background: linear-gradient(#114527, #8c95a3);
+    }
+
+
+.userbg {
+    /*background: linear-gradient(#476363, #114527);*/
+}
+
+
+
+/*End User index's model box*/
+
+
+#tbl .dropdown-menu {
+    background: linear-gradient(#8c9696, #8ed1aa);
+    /* background: linear-gradient(#114527, #8c95a3);*/
+}
+
+
+.validate {
+    color: red;
+}
+
+
+@keyframes shake {
+    10% {
+        transform: translate(100px, -500px) rotate(5deg);
+    }
+
+
+    20% {
+        transform: translate(-3px, 30px) rotate(-20deg);
+    }
+
+    30% {
+        transform: translate(-53px, 5px) rotate(20deg);
+    }
+
+    40% {
+        transform: translate(1px, -11px) rotate(-30deg);
+    }
+
+    50% {
+        transform: translate(-3px, 5px) rotate(5deg);
+    }
+
+    60% {
+        transform: translate(-13px, 10px) rotate(-10deg);
+    }
+
+    70% {
+        transform: translate(-3px, 5px) rotate(5deg);
+    }
+    /* 20% { transform: translate(-3px, 5px) rotate(5deg); }*/
+    80% {
+        transform: translate(-11px, -5px) rotate(-10deg);
+    }
+
+    90% {
+        transform: translate(-3px, 5px) rotate(5deg);
+    }
+
+    100% {
+        transform: translate(1px, -1px) rotate(-5deg);
+    }
+}
+
+
+/*Home Index*/
+.homeIndex
+{
+    margin-top:300px;
+}
+
+
+/*end Home Index*/
+
+
+.hide-scroll {
+    overflow-y: hidden !important;
+}
+
+#scroll {
+    /*position: fixed;*/
+    width: 100%;
+    transition: top 1.5s;
+}
+
+nav.shop {
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    transition: top 5s;
+    border-radius: 3px;
+}
+
+
+.datatable-container 
+{
+    overflow-y: hidden;
+}
+
+.datatable-container .dataTables_scrollBody 
+{
+    overflow-y: visible !important;
+}
+
+
+/*Start import Form*/
+
+.importCard
+{
+    margin-left:50px;
+}
+
+.import
+{
+    margin-top:110px;
+}
+
+
+/*End import form*/
+
+
+/*Start Reset form*/
+.reset
+{
+    margin-top : 150px;
+}
+
+
+/*
+End Reset Form*/
+
+
+/*Start Register */
+
+.regImage {
+    width: 500px;
+    height :680px;
+}
+
+.regForm
+{
+    padding-left: 37px;
+    padding-right: 35px;
+    
+}
+
+
+/*end Register*/

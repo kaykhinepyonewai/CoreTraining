@@ -1,0 +1,120 @@
+D:\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.deps.json
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.AssemblyReference.cache
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfoInputs.cache
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.AssemblyInfo.cs
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.csproj.CoreCompileInputs.cache
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\refint\CoreTraining.Entities.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Entities\obj\Debug\net6.0\ref\CoreTraining.Entities.dll

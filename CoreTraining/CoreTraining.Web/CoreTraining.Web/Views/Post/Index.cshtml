@@ -1,0 +1,97 @@
+﻿@model CoreTraining.Entities.DTO.PostViewModel;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mt-5">Post List</h2>
+
+<div class="container-fluid h-100 mt-5">
+    <div class="row">
+        <div class="col mb-3">
+            <a class="btn btn-outline-success btn-sm float-end mx-2" asp-controller="Post" asp-route-id="" id="import" asp-action="Import">Import</a>
+            <a class="btn btn-outline-success btn-sm float-end mx-2" asp-controller="Post" asp-route-id="" id="export" asp-action="Export">Export</a>
+            <a class="btn btn-outline-dark btn-sm float-end mx-2" asp-controller="Post" asp-action="Create">Create New Post</a>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center h-100 datatable-container">
+        <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 table-responsive">
+            <input type="hidden" id="userId" />
+            <table id="tbl" class="table table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>
+                            No.
+                        </th>
+                        <th>
+                            Title
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                        <th>
+                            Status
+                        </th>
+                        <th>
+                            Created Date
+                        </th>
+                        <th>
+                            Created By
+                        </th>
+                        <th>
+                            Actions
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="viewModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Post Detail</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Title</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control-plaintext" id="modalTitle">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Descrption</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalDescription">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Status</label>
+                    <div class="col-sm-9" id="divStatus">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Created Date</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalCreatedDate">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Created By</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalCreatedBy">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/pages/post-list12.js"></script>

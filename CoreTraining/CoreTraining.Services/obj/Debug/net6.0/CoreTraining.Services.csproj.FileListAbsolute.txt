@@ -1,0 +1,170 @@
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-14-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-15-23\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\SCM\OJTProject\Update\19-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-20-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\SCM\OJTProject\Update\21-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-22-23\Update\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\SCM\OJTProject\Update\29-3-2023\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\Update\3-30-23\New folder\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.deps.json
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.DAO.pdb
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\bin\Debug\net6.0\CoreTraining.Entities.pdb
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.AssemblyReference.cache
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfoInputs.cache
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.AssemblyInfo.cs
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CoreCompileInputs.cache
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.csproj.CopyComplete
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\refint\CoreTraining.Services.dll
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\CoreTraining.Services.pdb
+D:\OJTProject\FinalOJT\CoreTraining\CoreTraining.Services\obj\Debug\net6.0\ref\CoreTraining.Services.dll

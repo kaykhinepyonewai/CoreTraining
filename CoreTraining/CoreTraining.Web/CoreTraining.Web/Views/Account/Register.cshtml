@@ -1,0 +1,78 @@
+﻿@model CoreTraining.Entities.DTO.RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container-fluid h-100 mt-5">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="/images/img//8a8e6e868ca4b06b53af454a77366746.jpg" class="regImage "/>
+                </div>
+                <div class="col-lg-6">
+                    <div class="pt-5 pb-3 regForm">
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                        </div>
+                        <form method="post" class="registerForm">
+                            <div class="form-floating mb-4">
+                                <input asp-for="FirstName" class="form-control" placeholder="john" maxlength="100" />
+                                <label asp-for="FirstName"></label>
+                                <div class="invalid-feedback">
+                                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="LastName" class="form-control" placeholder="doe" maxlength="100" />
+                                <label asp-for="LastName"></label>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="Email" class="form-control" placeholder="xxx@example.com" />
+                                <label asp-for="Email"></label>
+                                <div class="invalid-feedback">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="Password" class="form-control" placeholder="xxxxxxx" />
+                                <label asp-for="Password" class="form-label"></label>
+                                <div class="invalid-feedback">
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <input asp-for="ConfirmPassword" class="form-control" placeholder="xxxxxxx" />
+                                <label asp-for="ConfirmPassword" class="form-label"></label>
+                                <div class="invalid-feedback">
+                                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-outline-dark">Register</button>
+                            </div>
+
+                            <div class="text-center mt-3">
+                                <a asp-area="" asp-controller="Account" asp-action="LogIn">Back to Login</a>
+                            </div>
+
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+
+@section Scripts
+{
+
+    <partial name="_ValidationScriptsPartial" />
+}

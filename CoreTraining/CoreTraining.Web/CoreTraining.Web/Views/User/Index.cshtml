@@ -1,0 +1,119 @@
+﻿@model CoreTraining.Entities.DTO.UserViewModel;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mt-4">User List</h2>
+<div class="container-fluid userbg h-100 mt-4 mb-4">
+    <div class="row">
+        <div class="col mb-3">
+            <a class="btn btn-outline-dark btn-sm float-end mx-2" asp-controller="User" asp-action="Create">Create New User</a>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center h-100 datatable-container">
+        <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 table-responsive">
+            <table id="tbl" class="table table-striped " style="width:100%">
+                <thead>
+                    <tr>
+                        <th>
+                            No.
+                        </th>
+                        <th>
+                            Full Name
+                        </th>
+                        <th>
+                            Email
+                        </th>
+                        <th>
+                            Role
+                        </th>
+                        <th>
+                            Created Date
+                        </th>
+                        <th>
+                            Created By
+                        </th>
+                        <th>
+                            Actions
+                        </th>
+                    </tr>
+                </thead>
+
+
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="viewModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">User Detail</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Profile Image</label>
+                    <div class="col-sm-9">
+                        <img src="" id="modalProfileImage" class="profileImage mb-2" alt="" />
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Full Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalFullName">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Role</label>
+                    <div class="col-sm-9" id="divRole">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Email</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control-plaintext" id="modalEmail">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Phone</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalPhone">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Date of Birth</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalDOB">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Address</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalAddress">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Created Date</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalCreatedDate">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label fw-bold">Created By</label>
+                    <div class="col-sm-9">
+                        <input type="text" readonly class="form-control-plaintext" id="modalCreatedBy">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/pages/user-list10.js"></script>

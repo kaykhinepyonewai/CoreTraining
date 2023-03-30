@@ -1,0 +1,114 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using CoreTraining.Entities.DTO;
+@using CoreTraining.DAO.IRepositories;
+@using CoreTraining.Entities.Data;
+@inject UserManager<ApplicationUser> UserManager;
+@inject IAuthRepository authRepository
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CoreTraining.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CoreTraining.Web.styles.css" asp-append-version="true" />
+
+    <!-- Data Table css-->
+	<link href="~/lib/datatables/css/datatables.bootstrap4.min.css" rel="stylesheet" />
+	<link href="~/css/slick.css" rel="stylesheet" />
+
+    <!-- Slider csss  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css
+	" rel="stylesheet" />
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+
+    <header>
+        @if (User.Identity.IsAuthenticated)
+        {
+            var userId = UserManager.GetUserId(User);
+        <input type="hidden" id="hdEmail" value="@User.Identity.Name" />
+        <input type="hidden" id="hdUserId" value="@userId" />
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="scroll">
+                <div class="container-fluid ">
+                    <a class="navbar-brand font" href="#"><b><i class="fa fa-university" aria-hidden="true"></i> Core Training <i class="fa fa-university" aria-hidden="true"></i></b></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto ">
+                            <li id="liUser" class="nav-item" style="display:none">
+                                <a class="nav-link mx-2 active" aria-current="page" asp-controller="User" asp-action="Index">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" asp-controller="Post" asp-action="Index">Posts</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <span id="EmailName"></span> <img src="" id="ProfileName" class="navProfile">
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="Profile" asp-route-id="" id="viewProfile">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Account" asp-route-id="" asp-action="ChangePassword" id="viewChangePass">Change Password</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        }
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+     @if (User.Identity.IsAuthenticated)
+        {
+    <footer class="border-top footer fixed text-muted mt-5">
+        
+            <div class="container text-light text-center text-dark text-monospace">
+                <p class="footertext m-0">Copyright &copy; All Right Result | Powered By Web-Design-2023 </p>
+
+            </div>
+
+
+    </footer>
+        }
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Datatable plugins-->
+	<script src="~/lib/datatables/js/jquery.datatables.min.js"></script>
+	<script src="~/lib/datatables/js/datatables.bootstrap4.min.js"></script>
+
+	<script src="~/lib/sweetalert/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+
+    <!-- Slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="~/js/pages/slick.js"></script>
+
+
+	<script src="~/js/pages/layout10.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        //var url = '@Url.Action("GetByEmail","Account")';
+        var url1 = '@Url.Action("GetById","Account")';
+        
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

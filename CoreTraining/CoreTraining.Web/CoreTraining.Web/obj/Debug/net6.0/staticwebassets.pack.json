@@ -1,0 +1,709 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CoreTraining.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CoreTraining.Web.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.material.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.material.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.material.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.material.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.uikit.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.uikit.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\dataTables.uikit.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.uikit.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\jquery.dataTables_themeroller.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables_themeroller.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\css\\jquery.dataTables_themeroller.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables_themeroller.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.dataTables.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.dataTables.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.material.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.material.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.material.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.material.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.uikit.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.uikit.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\dataTables.uikit.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.uikit.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
+      "PackagePath": "staticwebassets\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
+      "PackagePath": "staticwebassets\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
+      "PackagePath": "staticwebassets\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
+      "PackagePath": "staticwebassets\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\11.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\183ad89fdd6b0b4d4ffdc6ac61a50e81.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\183ad89fdd6b0b4d4ffdc6ac61a50e81.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\1fdbce52429088209094dd52a5e7fd3f.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\1fdbce52429088209094dd52a5e7fd3f.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\30dac4209511873246391eaaad7f2af6.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\30dac4209511873246391eaaad7f2af6.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\6b1b22573f9f3d4bba11a9fa5cb45652.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\6b1b22573f9f3d4bba11a9fa5cb45652.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\7840bcce9bfd44f6f6b1d69247227784.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\7840bcce9bfd44f6f6b1d69247227784.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\8a8e6e868ca4b06b53af454a77366746.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\8a8e6e868ca4b06b53af454a77366746.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\deac8d9225e62b7b37184ca777ea014d.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\deac8d9225e62b7b37184ca777ea014d.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\img\\reg.jpg",
+      "PackagePath": "staticwebassets\\images\\img\\reg.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\096dcdd4-b72b-45ef-95a3-a52c2b290afc.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\096dcdd4-b72b-45ef-95a3-a52c2b290afc.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\2cf97f35-cffe-422e-86a4-715fe0e1c941.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\2cf97f35-cffe-422e-86a4-715fe0e1c941.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\7bf08953-f12c-481d-bc05-deeec0bf6823.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\7bf08953-f12c-481d-bc05-deeec0bf6823.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\a7292ab8-4e05-46be-9746-37070cac4b06.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\a7292ab8-4e05-46be-9746-37070cac4b06.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\d503a59c-63e6-4e2f-b639-e6900da7fe1f.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\d503a59c-63e6-4e2f-b639-e6900da7fe1f.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\defaultImg.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\defaultImg.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\f845e1b8-51dc-437b-a5b8-06311bc62ed3.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\f845e1b8-51dc-437b-a5b8-06311bc62ed3.jpg"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\layout10.js",
+      "PackagePath": "staticwebassets\\js\\pages\\layout10.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\post-list12.js",
+      "PackagePath": "staticwebassets\\js\\pages\\post-list12.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\slick.js",
+      "PackagePath": "staticwebassets\\js\\pages\\slick.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\user-list10.js",
+      "PackagePath": "staticwebassets\\js\\pages\\user-list10.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.material.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.material.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.material.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.material.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.uikit.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.uikit.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\dataTables.uikit.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.uikit.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\jquery.dataTables_themeroller.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\jquery.dataTables_themeroller.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\css\\jquery.dataTables_themeroller.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\jquery.dataTables_themeroller.min.css"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.dataTables.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.dataTables.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.material.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.material.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.material.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.material.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.uikit.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.uikit.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\dataTables.uikit.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.uikit.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\lib\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CoreTraining.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CoreTraining.Web.props",
+      "PackagePath": "build\\CoreTraining.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CoreTraining.Web.props",
+      "PackagePath": "buildMultiTargeting\\CoreTraining.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CoreTraining.Web.props",
+      "PackagePath": "buildTransitive\\CoreTraining.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
