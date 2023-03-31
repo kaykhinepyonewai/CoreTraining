@@ -17,9 +17,9 @@ namespace CoreTraining.Services.Services
             _mapper = mapper;
         }
 
-        public PostListViewModel GetAll()
+        public PostListViewModel GetAll(int role,string id)
         {
-            PostListViewModel model = _postRepository.GetAll();
+            PostListViewModel model = _postRepository.GetAll(role,id);
             return model;
         }
 
@@ -46,7 +46,6 @@ namespace CoreTraining.Services.Services
             bool success = _postRepository.Delete(id);
 
             return success;
-
         }
 
         public int CountTitle(PostViewModel model)

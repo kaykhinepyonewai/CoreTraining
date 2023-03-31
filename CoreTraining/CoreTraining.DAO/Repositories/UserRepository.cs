@@ -44,7 +44,6 @@ namespace CoreTraining.DAO.Repositories
         public async Task<IdentityResult> Create(ApplicationUser user,string password)
         {
             var result = await _userManager.CreateAsync(user, password);
-
             return result;
         }
 
@@ -66,18 +65,13 @@ namespace CoreTraining.DAO.Repositories
                              Role = data.Role,
                              CreatedDate = data.CreatedDate,
                              CreatedUserName = user.FirstName + " " + user.LastName,
-                             ProfileName = data.ProfileName,
-                             
+                             ProfileName = data.ProfileName,  
                          }).FirstOrDefault();
-
             return query;
         }
 
-
         public ApplicationUser GetUpdate(string email)
         {
-            
-
             var query = (from data in _context.User
                          join user in _context.User on data.CreatedUserId equals user.Id
                          where data.Email ==email
@@ -109,11 +103,8 @@ namespace CoreTraining.DAO.Repositories
                                TokenDate = data.TokenDate,
                                TwoFactorEnabled = data.TwoFactorEnabled,
                                UserName = data.UserName,
-                               
                             }
-
                          ).FirstOrDefault();
-
             return query;
         }
         public UserViewModel GetToken(string id)
@@ -126,7 +117,6 @@ namespace CoreTraining.DAO.Repositories
                              Id = data.Id,
                              TokenDate = data.TokenDate,
                          }).FirstOrDefault();
-
             return query;
         }
 
@@ -136,38 +126,34 @@ namespace CoreTraining.DAO.Repositories
             try
             {
                 var user = _context.User.FirstOrDefault(x => x.Id == obj.Id);
-                
-                user.Email = obj.Email;
-                user.UserName = obj.Email;
-                user.NormalizedEmail = obj.Email.ToUpper();
-                user.NormalizedUserName = obj.Email.ToUpper();
-                user.FirstName = obj.FirstName;
-                user.LastName = obj.LastName == null ? "" : obj.LastName;
-                user.PhoneNumber = obj.PhoneNumber == null ? "" : obj.PhoneNumber;
-                user.Address = obj.Address == null ? "" : obj.Address;
-                user.Dob = obj.Dob;
-                user.Role = obj.Role == 0 ? user.Role : obj.Role;
-                user.UpdatedDate = DateTime.Now;
-                user.UpdatedUserId = obj.UpdatedUserId;
-               
-
-                if(obj.ProfileName != "")
+                if(user != null)
                 {
-                    user.ProfileName = obj.ProfileName;
+                    user.Email = obj.Email;
+                    user.UserName = obj.Email;
+                    user.NormalizedEmail = obj.Email.ToUpper();
+                    user.NormalizedUserName = obj.Email.ToUpper();
+                    user.FirstName = obj.FirstName;
+                    user.LastName = obj.LastName == null ? "" : obj.LastName;
+                    user.PhoneNumber = obj.PhoneNumber == null ? "" : obj.PhoneNumber;
+                    user.Address = obj.Address == null ? "" : obj.Address;
+                    user.Dob = obj.Dob;
+                    user.Role = obj.Role == 0 ? user.Role : obj.Role;
+                    user.UpdatedDate = DateTime.Now;
+                    user.UpdatedUserId = obj.UpdatedUserId;
+                    if (obj.ProfileName != "")
+                    {
+                        user.ProfileName = obj.ProfileName;
+                    }
+                    _context.User.Update(user);
+                    _context.Update(user);
+                    _context.SaveChanges();
+                    success = true;
                 }
-
-                _context.User.Update(user);
-                _context.Update(user);
-                _context.SaveChanges();
-                
-                success = true;
-
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
-
             return success;
         }
 
@@ -178,18 +164,18 @@ namespace CoreTraining.DAO.Repositories
             try
             {
                 var user = _context.User.FirstOrDefault(x => x.Id == obj.Id);
-                user.TokenDate = obj.TokenDate;
-                _context.User.Update(user);
-                _context.SaveChanges();
-
-                success = true;
-
+                if (user != null)
+                {
+                    user.TokenDate = obj.TokenDate;
+                    _context.User.Update(user);
+                    _context.SaveChanges();
+                    success = true;
+                }   
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
-
             return success;
         }
 
@@ -204,25 +190,22 @@ namespace CoreTraining.DAO.Repositories
             bool success = false;
             try
             {
-                User user = _context.User.FirstOrDefault(x => x.Id == id);
+                var user = _context.User.FirstOrDefault(x => x.Id == id);
+                if(user != null)
+                {
+                    user.IsDeleted = true;
+                    user.DeletedDate = DateTime.Now;
 
-                user.IsDeleted = true;
-                user.DeletedDate = DateTime.Now;
-
-                _context.User.Update(user);
-                _context.SaveChanges();
-
-                success = true;
-
+                    _context.User.Update(user);
+                    _context.SaveChanges();
+                    success = true;
+                }
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
-
             return success;
         }
-
-       
     }
 }

@@ -30,42 +30,40 @@ namespace CoreTraining.DAO.Repositories
         public ApplicationUser GetByEmail(string email)
         {
             var user = _userManager.Users.FirstOrDefault(x => x.UserName == email);
-
+           #pragma warning disable CS8603 
             return user;
+           #pragma warning restore CS8603 
         }
 
         public ApplicationUser GetById(string id)
         {
-            var user = _userManager.Users.FirstOrDefault(x => x.Id == id);
-
+           var user = _userManager.Users.FirstOrDefault(x => x.Id == id);
+           #pragma warning disable CS8603 
             return user;
+           #pragma warning restore CS8603 
         }
 
         public async Task<String> GenerateToken(ApplicationUser applicationUser)
         {
             var token = await _userManager.GeneratePasswordResetTokenAsync(applicationUser);
-
             return token;
         }
 
         public Task<IdentityResult> ResetPassword(ApplicationUser applicationUser, string token, string currentPassword)
         {
             Task<IdentityResult> result = _userManager.ResetPasswordAsync(applicationUser, token, currentPassword);
-
             return result;
         }
 
         public Task<IdentityResult> ChangePassword(ApplicationUser applicationUser, string currentPassword, string newPassword)
         {
             Task<IdentityResult> result = _userManager.ChangePasswordAsync(applicationUser, currentPassword, newPassword);
-
             return result;
         }
 
         public async Task<IdentityResult> Register(ApplicationUser user, string password)
         {
             var result = await _userManager.CreateAsync(user, password);
-
             return result;
         }
         public void Logout()

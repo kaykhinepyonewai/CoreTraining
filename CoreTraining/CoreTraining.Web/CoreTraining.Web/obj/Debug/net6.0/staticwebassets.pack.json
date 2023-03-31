@@ -253,12 +253,12 @@
       "PackagePath": "staticwebassets\\images\\profile\\a7292ab8-4e05-46be-9746-37070cac4b06.jpg"
     },
     {
-      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg",
-      "PackagePath": "staticwebassets\\images\\profile\\ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg"
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\bfbbb1c5-b437-4f2f-a8f5-2767bd069d44.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\bfbbb1c5-b437-4f2f-a8f5-2767bd069d44.jpg"
     },
     {
-      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\d503a59c-63e6-4e2f-b639-e6900da7fe1f.jpg",
-      "PackagePath": "staticwebassets\\images\\profile\\d503a59c-63e6-4e2f-b639-e6900da7fe1f.jpg"
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg"
     },
     {
       "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\defaultImg.jpg",
@@ -269,20 +269,20 @@
       "PackagePath": "staticwebassets\\images\\profile\\f845e1b8-51dc-437b-a5b8-06311bc62ed3.jpg"
     },
     {
-      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\layout10.js",
-      "PackagePath": "staticwebassets\\js\\pages\\layout10.js"
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\layouts.js",
+      "PackagePath": "staticwebassets\\js\\pages\\layouts.js"
     },
     {
-      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\post-list12.js",
-      "PackagePath": "staticwebassets\\js\\pages\\post-list12.js"
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\post-lists.js",
+      "PackagePath": "staticwebassets\\js\\pages\\post-lists.js"
     },
     {
       "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\slick.js",
       "PackagePath": "staticwebassets\\js\\pages\\slick.js"
     },
     {
-      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\user-list10.js",
-      "PackagePath": "staticwebassets\\js\\pages\\user-list10.js"
+      "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\user-lists.js",
+      "PackagePath": "staticwebassets\\js\\pages\\user-lists.js"
     },
     {
       "Id": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\site.js",

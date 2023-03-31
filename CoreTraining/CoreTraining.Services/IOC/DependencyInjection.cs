@@ -33,18 +33,13 @@ namespace CoreTraining.Services.IOC
                 options.CompatibilityMode = PasswordHasherCompatibilityMode.IdentityV3
 
             );
-
             services.AddDistributedMemoryCache();
-
-
-
             services.Configure<IdentityOptions>(options =>
             {
                 options.SignIn.RequireConfirmedEmail = false;
                 options.SignIn.RequireConfirmedAccount = false;
                 options.SignIn.RequireConfirmedPhoneNumber = false;
             });
-
             services.AddDistributedMemoryCache();
             services.AddSession(options =>
             {
@@ -52,8 +47,7 @@ namespace CoreTraining.Services.IOC
                 options.IdleTimeout = TimeSpan.FromHours(24);
                 options.Cookie.IsEssential = true;
             });
-
-            services.AddAutoMapper(typeof(AutoMapperProfiles));
+            services.AddAutoMapper(typeof(AutoMapperProfile));
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IRoleRepository, RoleRepository>();

@@ -325,3 +325,35 @@ End Reset Form*/
 
 
 /*end Register*/
+
+.list {
+    background-color: #8c9696;
+    /*background: rgb(33,105,84);
+    background: radial-gradient(circle, rgba(33,105,84,1) 0%, rgba(50,139,58,1) 94%, rgba(11,124,93,1) 100%);*/
+    color: black;
+    padding:30px;
+    border-radius:1%;
+}
+
+.table {
+    color: black;
+}
+
+.list .btn {
+    color: black;
+   
+}
+
+tbody td {
+    color:black;
+}
+
+tbody td .btn {
+     background-color: #869c8d;
+     
+ }
+
+tbody td .btn:hover 
+{
+ background-color: white;
+ }

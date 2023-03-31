@@ -20,7 +20,6 @@ namespace CoreTraining.Web.Controllers
         private readonly IDistributedCache _cache;
         private readonly CoreTrainingContext _context;
 
-
         public AccountController(UserManager<ApplicationUser> userManager,
                                       SignInManager<ApplicationUser> signInManager,
                                       IAuthService authService,
@@ -48,13 +47,13 @@ namespace CoreTraining.Web.Controllers
         [AllowAnonymous]
         public IActionResult Login()
         {
-            if (User.Identity.IsAuthenticated)
-            {
-                return RedirectToAction("Index", "Home");
-            }
-
+                if (User.Identity.IsAuthenticated)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel user)
@@ -79,17 +78,13 @@ namespace CoreTraining.Web.Controllers
                         _authService.Logout();
                         return View(user);
                     }
-
                     return RedirectToAction("Index", "Home");
                 }
-
                 ModelState.AddModelError(string.Empty, "Invalid Login Attempt");
-
             }
             return View(user);
         }
         #endregion
-
 
         #region Register
         public IActionResult Register()
@@ -97,9 +92,8 @@ namespace CoreTraining.Web.Controllers
             return View();
         }
 
-
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterViewModel model)
+        public IActionResult Register(RegisterViewModel model)
         {
             DateTime? todayDate = DateTime.Now;
             var userId = Guid.NewGuid().ToString();
@@ -122,24 +116,17 @@ namespace CoreTraining.Web.Controllers
                     CreatedUserId = userId,
                     ProfileName = "defaultImg.jpg",
                 };
-
                 var result = _authService.Register(user, model.Password);
 
                 if (result.Result.Succeeded)
                 {
-                    await _signInManager.SignInAsync(user, isPersistent: false);
-
-                    return RedirectToAction("index", "Home");
+                    return RedirectToAction("Login", "Account");
                 }
-
-
                 foreach (var error in result.Result.Errors)
                 {
                     ModelState.AddModelError("", error.Description);
                 }
-
                 ModelState.AddModelError(string.Empty, "Invalid Login Attempt");
-
             }
             return View(model);
         }
@@ -162,11 +149,9 @@ namespace CoreTraining.Web.Controllers
         #endregion
 
         #region Profile
-
-        public async Task<IActionResult> Profile([FromRoute] string id)
+        public IActionResult Profile([FromRoute] string id)
         {
             var currentUser = _authService.GetById(id);
-
             UserViewModel model = _userService.Get(currentUser.Id);
             UserEditViewModel userModel = new UserEditViewModel();
             userModel.Id = model.Id;
@@ -174,13 +159,11 @@ namespace CoreTraining.Web.Controllers
             userModel.LastName = model.LastName;
             userModel.Email = model.Email;
             userModel.Id = model.Id;
-
             userModel.PhoneNumber = model.PhoneNumber == null ? "" : model.PhoneNumber;
             userModel.Address = model.Address == null ? "" : model.Address;
             userModel.DOB = model.DOB;
             userModel.Role = model.Role;
             userModel.ProfileName = model.ProfileName;
-            
             return View(userModel);
         }
 
@@ -202,20 +185,14 @@ namespace CoreTraining.Web.Controllers
 
                         if (currentImage != defaultImage)
                         {
-                            //Delete the profile image file
                             System.IO.File.Delete(currentImage);
                         }
-
-                        // Generate a unique file name
                         var fileName = Guid.NewGuid().ToString() + Path.GetExtension(profileImage.FileName);
-
-                        // Save the file to the server
                         var filePath = Path.Combine(_env.WebRootPath, "images", "profile", fileName);
                         using (var stream = new FileStream(filePath, FileMode.Create))
                         {
                             await profileImage.CopyToAsync(stream);
                         }
-                        // Update the user's profile image
                         model.ProfileName = fileName;
                     }
                     else
@@ -233,7 +210,6 @@ namespace CoreTraining.Web.Controllers
                         }
                         else
                         {
-     
                             if (currentUser.UserName == model.Email)
                             {
                                 bool success = _userService.Update(model);
@@ -249,7 +225,6 @@ namespace CoreTraining.Web.Controllers
                                     model.ResponseModel.Message = "Update Profile fail.";
                                 }
                             }
-
                             else
                             {
                                 bool success = _userService.Update(model);
@@ -258,10 +233,7 @@ namespace CoreTraining.Web.Controllers
 
                                 if (success)
                                 {
-                                    //_authService.Logout();
                                     model.ResponseModel.Message = "Update Profile successful.";
-                                    //return RedirectToAction("Login");
-
                                 }
                                 else
                                 {
@@ -324,10 +296,8 @@ namespace CoreTraining.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+        public IActionResult ChangePassword(ChangePasswordViewModel model)
         {
-
-
             var currentUser = _authService.GetById(model.UserId);
 
             if (ModelState.IsValid)
@@ -361,7 +331,7 @@ namespace CoreTraining.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
+        public IActionResult ForgotPassword(ForgotPasswordViewModel model)
         {
             if(model.Email != null)
             {
@@ -377,7 +347,6 @@ namespace CoreTraining.Web.Controllers
                 else
                 {
                     var tokenExpiration = DateTime.UtcNow.AddHours(24);
-
                     UserViewModel userModel = new UserViewModel();
                     userModel.TokenDate = tokenExpiration;
                     userModel.Id = currentUser.Id;
@@ -424,7 +393,6 @@ namespace CoreTraining.Web.Controllers
                         }
                     }
                 }
-               
 			}
             return View();
         }
@@ -443,15 +411,14 @@ namespace CoreTraining.Web.Controllers
             var body = templateString.Replace("#name#", model.Email).Replace("#url#", resetUrl);
             message.Body = body;
             message.To.Add(model.Email);
-			
 			try
             {
                 smtp.Send(message);
 			}
-            catch (SmtpException ex)
+            catch(Exception ex)
             {
-
-			}
+                Console.WriteLine(ex.ToString());
+            }
         }
         #endregion
 
@@ -503,7 +470,6 @@ namespace CoreTraining.Web.Controllers
         }
         #endregion
 
-
         #region Logout
         public IActionResult Logout()
         {
@@ -512,7 +478,5 @@ namespace CoreTraining.Web.Controllers
             return RedirectToAction("Login");
         }
         #endregion logout
-
-
     }
 }

@@ -7,7 +7,7 @@ namespace CoreTraining.Entities.DTO
         {
             public int TotalRecords { get; set; }
 
-            public List<UserViewModel> Data { get; set; }
+            public List<UserViewModel>? Data { get; set; }
         }
 
         public class UserViewModel
@@ -16,8 +16,8 @@ namespace CoreTraining.Entities.DTO
             [Required]
             public string FirstName { get; set; } = "";
             public string LastName { get; set; } = "";
-            public string FullName { get; set; }
-            [Required]
+            public string FullName { get; set; } = "";
+        [Required]
             [EmailAddress]
             public string Email { get; set; } = "";
 
@@ -33,7 +33,7 @@ namespace CoreTraining.Entities.DTO
             public string Address { get; set; } = "";
             public DateTime? DOB { get; set; }
             public int Role { get; set; } = 0;
-            public SelectList RoleList { get; set; }
+            public SelectList? RoleList { get; set; }
             public bool IsActive { get; set; }
             public bool IsDeleted { get; set; }
             public DateTime CreatedDate { get; set; }
@@ -55,7 +55,7 @@ namespace CoreTraining.Entities.DTO
         [Required]
         public string FirstName { get; set; } = "";
         public string LastName { get; set; } = "";
-        public string FullName { get; set; }
+        public string FullName { get; set; } = "";
         [Required]
         [EmailAddress]
         public string Email { get; set; } = "";
@@ -64,7 +64,7 @@ namespace CoreTraining.Entities.DTO
         public string Address { get; set; } = "";
         public DateTime? DOB { get; set; }
         public int Role { get; set; } = 0;
-        public SelectList RoleList { get; set; }
+        public SelectList? RoleList { get; set; }
         public bool IsActive { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime CreatedDate { get; set; }
@@ -78,7 +78,7 @@ namespace CoreTraining.Entities.DTO
         public string ProfileName { get; set; } = "";
 
         public DateTime ? TokenDate { get; set; }
-        public ResponseModel ResponseModel { get; set; }
+        public ResponseModel? ResponseModel { get; set; }
     }
 }
 

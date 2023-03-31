@@ -13,28 +13,47 @@ namespace CoreTraining.DAO.Repositories
             _context = context;
         }
 
-
-        public PostListViewModel GetAll()
+        public PostListViewModel GetAll(int role, string id)
         {
             PostListViewModel model = new PostListViewModel();
-
-            var query = (from data in _context.Posts
-                         join user in _context.User on data.CreatedUserId equals user.Id
-                         where data.IsDeleted == false
-                         orderby data.CreatedDate descending
-                         select new PostViewModel
-                         {
-                             Id = data.Id,
-                             Title = data.Title,
-                             Description = data.Description,
-                             IsPublished = data.IsPublished,
-                             CreatedDate = data.CreatedDate,
-                             CreatedUserId = data.CreatedUserId,
-                             CreatedUserName = user.FirstName + " " + user.LastName
-                         });
-            model.TotalRecords = query.Count();
-            model.Data = query.ToList();
-
+            if(role == 1)
+            {
+                var query = (from data in _context.Posts
+                             join user in _context.User on data.CreatedUserId equals user.Id
+                             where data.IsDeleted == false
+                             orderby data.CreatedDate descending
+                             select new PostViewModel
+                             {
+                                 Id = data.Id,
+                                 Title = data.Title,
+                                 Description = data.Description,
+                                 IsPublished = data.IsPublished,
+                                 CreatedDate = data.CreatedDate,
+                                 CreatedUserId = data.CreatedUserId,
+                                 CreatedUserName = user.FirstName + " " + user.LastName
+                             });
+                model.TotalRecords = query.Count();
+                model.Data = query.ToList();
+            }
+            else
+            {
+                var query = (from data in _context.Posts
+                             join user in _context.User on data.CreatedUserId equals user.Id
+                             where data.IsDeleted == false && user.Id == id
+                             orderby data.CreatedDate descending
+                             select new PostViewModel
+                             {
+                                 Id = data.Id,
+                                 Title = data.Title,
+                                 Description = data.Description,
+                                 IsPublished = data.IsPublished,
+                                 CreatedDate = data.CreatedDate,
+                                 CreatedUserId = data.CreatedUserId,
+                                 CreatedUserName = user.FirstName + " " + user.LastName
+                             });
+                model.TotalRecords = query.Count();
+                model.Data = query.ToList();
+            }
             return model;
         }
 
@@ -50,11 +69,10 @@ namespace CoreTraining.DAO.Repositories
                 success = true;
 
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
-
             return success;
         }
 
@@ -73,7 +91,6 @@ namespace CoreTraining.DAO.Repositories
                              CreatedDate = data.CreatedDate,
                              CreatedUserName = user.FirstName + " " + user.LastName
                          }).FirstOrDefault();
-
             return query;
         }
 
@@ -83,21 +100,22 @@ namespace CoreTraining.DAO.Repositories
             try
             {
                 var post = _context.Posts.FirstOrDefault(x => x.Id == obj.Id);
+                if(post == null)
+                {
+                    throw new Exception("String is null");
+                }
                 post.Title = obj.Title;
                 post.Description = obj.Description;
                 post.IsPublished = obj.IsPublished;
                 post.UpdatedDate = DateTime.Now;
                 post.UpdatedUserId = obj.UpdatedUserId;
-
                 _context.Posts.Update(post);
                 _context.SaveChanges();
-
                 success = true;
-
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
 
             return success;
@@ -108,39 +126,35 @@ namespace CoreTraining.DAO.Repositories
             bool success = false;
             try
             {
-                Posts post = _context.Posts.FirstOrDefault(x => x.Id == id);
-
+                var post = _context.Posts.FirstOrDefault(x => x.Id == id);
+                if (post == null)
+                {
+                    throw new Exception("String is null");
+                }
                 post.IsDeleted = true;
                 post.DeletedDate = DateTime.Now;
-
                 _context.Posts.Update(post);
                 _context.SaveChanges();
                 success = true;
-
             }
-            catch
+            catch(Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
             return success;
         }
 
-
         public int CountTitle(PostViewModel model)
         {
             int countTitle;
-
             countTitle = _context.Posts.Count(x => x.Title == model.Title && x.IsDeleted == false);
-
             return countTitle;
         }
 
         public int CountEditTitle(PostViewModel model)
         {
             int countTitle;
-
             countTitle = _context.Posts.Count(x => x.Title == model.Title && x.Id != model.Id && x.IsDeleted == false);
-
             return countTitle;
         }
 
@@ -169,11 +183,8 @@ namespace CoreTraining.DAO.Repositories
             {
                 query = query.Where(x => x.CreatedUserId == request.CurrentUserId);
             }
-
             model.TotalRecords = query.Count();
-
             model.Data = query.ToList();
-
             return model;
         }
 
@@ -187,12 +198,11 @@ namespace CoreTraining.DAO.Repositories
 
                 success = true;
             }
-            catch
+            catch(Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
             return success;
         }
-
     }
 }

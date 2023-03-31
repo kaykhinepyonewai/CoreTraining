@@ -4,8 +4,6 @@ using CoreTraining.Entities.DTO;
 
 namespace CoreTraining.Services.Helper
 {
-    public class AutoMapperProfiles
-    {
         public class AutoMapperProfile : Profile
         {
             public AutoMapperProfile()
@@ -17,6 +15,4 @@ namespace CoreTraining.Services.Helper
                 CreateMap<Role, RoleViewModel>().ReverseMap();
             }
         }
-
-    }
 }

@@ -35,7 +35,6 @@ namespace CoreTraining.Services.Services
             return model;
         }
 
-
         public ApplicationUser GetUpdate(string email)
         {
             ApplicationUser user = _userRepository.GetUpdate(email);
@@ -71,7 +70,5 @@ namespace CoreTraining.Services.Services
             bool success = _userRepository.Delete(id);
             return success;
         }
-
-       
     }
 }

@@ -32,7 +32,7 @@ namespace CoreTraining.Web.Controllers
         {
             HttpContext.Session.SetString("UserId", id);
             var currentUser = _authService.GetById(id);
-            var model = _postService.GetAll();
+            var model = _postService.GetAll(currentUser.Role,currentUser.Id);
             return Json(model);
         }
 
@@ -51,8 +51,9 @@ namespace CoreTraining.Web.Controllers
             try
             {
                 string? userId = HttpContext.Session.GetString("UserId");
+                #pragma warning disable CS8604
                 var currentUser = _authService.GetById(userId);
-
+                #pragma warning restore CS8604 
                 int countTitle = _postService.CountTitle(model);
 
                 if(countTitle > 0)
@@ -115,21 +116,17 @@ namespace CoreTraining.Web.Controllers
                 else
                 {
                     string currentUserId = currentUser.Id;
-
                     model.UpdatedUserId = currentUserId;
-
                     bool success = _postService.Update(model);
-
                     return RedirectToAction(nameof(Index));
                 } 
             }
             catch
             {
-
+                Console.WriteLine("Something went wrong");
             }
             return View(model);
         }
-
         #endregion Edit
 
         #region Delete
@@ -137,24 +134,18 @@ namespace CoreTraining.Web.Controllers
         public JsonResult Delete(string id)
         {
             bool success = _postService.Delete(id);
-
             return Json(success);
         }
         #endregion
 
         #region Export
-
         public IActionResult Export([FromRoute] string id)
         {
             var currentUser = _authService.GetById(id);
-
             TableRequestViewModel request = new TableRequestViewModel();
-
             request.Role = currentUser.Role;
             request.CurrentUserId = currentUser.Id;
-
             var posts = _postService.GetAllPosts(request);
-
             var stream = new MemoryStream();
             using (var xlPackage = new ExcelPackage(stream))
             {
@@ -164,8 +155,6 @@ namespace CoreTraining.Web.Controllers
                 namedStyle.Style.Font.Color.SetColor(Color.Blue);
                 const int startRow = 5;
                 var row = startRow;
-
-                //Create Headers and format them
                 worksheet.Cells["A1"].Value = "Posts";
                 using (var r = worksheet.Cells["A1:E1"])
                 {
@@ -175,7 +164,6 @@ namespace CoreTraining.Web.Controllers
                     r.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid;
                     r.Style.Fill.BackgroundColor.SetColor(Color.FromArgb(23, 55, 93));
                 }
-
                 worksheet.Cells["A2"].Value = "Title";
                 worksheet.Cells["B2"].Value = "Description";
                 worksheet.Cells["C2"].Value = "Status";
@@ -184,7 +172,6 @@ namespace CoreTraining.Web.Controllers
                 worksheet.Cells["A2:E2"].Style.Fill.PatternType = ExcelFillStyle.Solid;
                 worksheet.Cells["A2:E2"].Style.Fill.BackgroundColor.SetColor(Color.FromArgb(184, 204, 228));
                 worksheet.Cells["A2:E2"].Style.Font.Bold = true;
-
                 row = 3;
                 foreach (var item in posts.Data)
                 {
@@ -195,16 +182,11 @@ namespace CoreTraining.Web.Controllers
                     worksheet.Cells[row, 5].Value = item.CreatedUserName;
                     row++;
                 }
-
-
-                // save the new spreadsheet
                 xlPackage.Save();
-                // Response.Clear();
             }
             stream.Position = 0;
             return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "posts.xlsx");
         }
-
         #endregion
 
         #region Import
@@ -215,12 +197,9 @@ namespace CoreTraining.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public IActionResult Import(IFormFile batchPosts, [FromRoute] string id)
         {
-            
             var currentUser = _authService.GetById(id);
-
             if (batchPosts != null)
             {
                     var extension = Path.GetExtension(batchPosts.FileName);
@@ -232,7 +211,7 @@ namespace CoreTraining.Web.Controllers
                         {
                             using (var package = new ExcelPackage(stream))
                             {
-                                var worksheet = package.Workbook.Worksheets.First();//package.Workbook.Worksheets[0];
+                                var worksheet = package.Workbook.Worksheets.First();
                                 var rowCount = worksheet.Dimension.Rows;
 
                                 for (var row = 3; row <= rowCount; row++)
@@ -246,15 +225,15 @@ namespace CoreTraining.Web.Controllers
                                         var post = new PostViewModel()
                                         {
                                             Id = Guid.NewGuid().ToString(),
-                                            Title = title,
-                                            Description = description,
+                                            Title = title == null ? "" : title,
+                                            Description = description == null ? "" : description,
                                             IsPublished = status == "Published" ? true : false,
                                             CreatedDate = DateTime.Now,
                                             CreatedUserId = currentUser.Id
                                         };
                                         posts.Add(post);
                                     }
-                                    catch (Exception ex)
+                                    catch
                                     {
                                         Console.WriteLine("Something went wrong");
                                     }
@@ -271,7 +250,7 @@ namespace CoreTraining.Web.Controllers
                             return View();
 
                         }
-                        catch (Exception e)
+                        catch
                         {
                             return View();
                         }
@@ -280,16 +259,13 @@ namespace CoreTraining.Web.Controllers
                 {
                     ModelState.AddModelError(string.Empty, "Please filled corrrect format Excel file extension with .xlsx or .xls");
                 }
-              
             }
             else
             {
                 ModelState.AddModelError(string.Empty, "Input File is Empty. Please Filled correct format excel file");
             }
-            
             return View();
         }
-
         #endregion
     }
 }

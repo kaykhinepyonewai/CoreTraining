@@ -2,11 +2,9 @@
 @{
     ViewData["Title"] = "Register";
 }
-
 <div class="container-fluid h-100 mt-5">
     <div class="card o-hidden border-0 shadow-lg my-5">
         <div class="card-body p-0">
-            <!-- Nested Row within Card Body -->
             <div class="row">
                 <div class="col-lg-6 d-none d-lg-block">
                     <img src="/images/img//8a8e6e868ca4b06b53af454a77366746.jpg" class="regImage "/>
@@ -15,6 +13,7 @@
                     <div class="pt-5 pb-3 regForm">
                         <div class="text-center">
                             <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                            <div asp-validation-summary="All" class="validate"></div>
                         </div>
                         <form method="post" class="registerForm">
                             <div class="form-floating mb-4">
@@ -62,7 +61,6 @@
                             <div class="text-center mt-3">
                                 <a asp-area="" asp-controller="Account" asp-action="LogIn">Back to Login</a>
                             </div>
-
                         </form> 
                     </div>
                 </div>
@@ -73,6 +71,5 @@
 
 @section Scripts
 {
-
     <partial name="_ValidationScriptsPartial" />
 }

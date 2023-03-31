@@ -49,19 +49,16 @@ namespace CoreTraining.Web.Controllers
         public IActionResult Create()
         {
             UserViewModel model = new UserViewModel();
-
             model.RoleList = new SelectList(_roleService.GetAll(), "Id", "Name");
-
             return View(model);
         }
 
         [HttpPost]
 
-        public async Task<IActionResult> Create(UserViewModel model)
+        public IActionResult Create(UserViewModel model)
         {
             DateTime? todayDate = DateTime.Now;
             var userId = Guid.NewGuid().ToString();
-
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser
@@ -72,7 +69,7 @@ namespace CoreTraining.Web.Controllers
                     UserName = model.Email,
                     Email = model.Email,
                     DOB = model.DOB,
-                    PhoneNumber = model.PhoneNumber,
+                    PhoneNumber = model.PhoneNumber == null ? "" : model.PhoneNumber,
                     Address = model.Address == null ? "" : model.Address,
                     Role = model.Role,
                     IsActive = true,
@@ -81,7 +78,6 @@ namespace CoreTraining.Web.Controllers
                     CreatedUserId = userId,
                     ProfileName = "defaultImg.jpg",
                 };
-
                 var result = _userService.Create(user, model.Password);
                 if (result.Result.Succeeded)
                 {
@@ -99,24 +95,17 @@ namespace CoreTraining.Web.Controllers
 
                 ModelState.AddModelError(string.Empty, "Invalid Login Attempt");
             }
-
             return View(model);
-
         }
         #endregion
 
-
         #region GetUserDetail
-
         public JsonResult GetUserDetail(string id)
         {
             UserViewModel model = _userService.Get(id);
-
             return Json(model);
         }
-
         #endregion
-
 
         #region Edit
         public IActionResult Edit(string id)
@@ -133,13 +122,11 @@ namespace CoreTraining.Web.Controllers
             userModel.DOB = model.DOB;
             userModel.Role = model.Role;
             userModel.RoleList = new SelectList(_roleService.GetAll(), "Id", "Name");
-
             return View(userModel);
         }
 
-
         [HttpPost]
-        public async Task<IActionResult> Edit(UserEditViewModel model)
+        public IActionResult Edit(UserEditViewModel model)
         {
             DateTime? todayDate = DateTime.Now;
             var userId = Guid.NewGuid().ToString();
@@ -162,9 +149,7 @@ namespace CoreTraining.Web.Controllers
                     }
                 }
             }
-
             model.RoleList = new SelectList(_roleService.GetAll(), "Id", "Name");
-
             return View(model);
         }
         #endregion
@@ -178,20 +163,16 @@ namespace CoreTraining.Web.Controllers
             var filePath = Path.Combine(_env.WebRootPath, "images", "profile", model.ProfileName);
             string image = "defaultImg.jpg";
             var defaultImage = Path.Combine(_env.WebRootPath, "images", "profile", image);
-
-            // Check if the profile image file exists
             if (System.IO.File.Exists(filePath))
             {
                 if(filePath != defaultImage)
                 {
-                    // Delete the profile image file
                     System.IO.File.Delete(filePath);
                 }
             }
             bool success = _userService.Delete(id);
 
             return Json(success);
-
         }
         #endregion
     }
