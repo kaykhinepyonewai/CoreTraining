@@ -92,8 +92,6 @@ namespace CoreTraining.Web.Controllers
                 {
                     ModelState.AddModelError("", error.Description);
                 }
-
-                ModelState.AddModelError(string.Empty, "Invalid Login Attempt");
             }
             return View(model);
         }

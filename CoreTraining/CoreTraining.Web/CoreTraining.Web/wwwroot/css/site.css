@@ -63,12 +63,12 @@ body {
     border-left: none;
 }
 
-
+/*commmand*/
 body {
-    /*background: linear-gradient(#b1c6c9, #114527);*/
+    background: linear-gradient(#b1c6c9, #114527);
     background: linear-gradient( #114527, #878787);
     color: #db8512;
-    /*  color: #915401;*/
+      color: #915401;
 }
 
 footer {
@@ -81,6 +81,8 @@ footer {
     height: 50px;
 }
 
+
+/*commmand*/
 .card {
     background: linear-gradient(#476363, #114527);
     margin-top: 6rem;
@@ -197,6 +199,8 @@ Region Forgot Password*/
 }
 
 
+/*commmand*/
+
 @keyframes shake {
     10% {
         transform: translate(100px, -500px) rotate(5deg);
@@ -226,7 +230,7 @@ Region Forgot Password*/
     70% {
         transform: translate(-3px, 5px) rotate(5deg);
     }
-    /* 20% { transform: translate(-3px, 5px) rotate(5deg); }*/
+     20% { transform: translate(-3px, 5px) rotate(5deg); }
     80% {
         transform: translate(-11px, -5px) rotate(-10deg);
     }
@@ -357,3 +361,4 @@ tbody td .btn:hover
 {
  background-color: white;
  }
+

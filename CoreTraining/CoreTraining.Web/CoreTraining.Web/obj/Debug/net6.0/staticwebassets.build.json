@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rLA0d8DcNaKrRb6/g1+HmSKpfUNxU1NtMh7RoFNwuJ4=",
+  "Hash": "peu9UdNMHtCwJ1r4gIjp8V+xpOQ1k9VhRGGSyVVJP20=",
   "Source": "CoreTraining.Web",
   "BasePath": "_content/CoreTraining.Web",
   "Mode": "Default",
@@ -2057,12 +2057,12 @@
       "OriginalItemSpec": "wwwroot\\images\\img\\reg.jpg"
     },
     {
-      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\096dcdd4-b72b-45ef-95a3-a52c2b290afc.jpg",
+      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\9544fe69-22cd-4f47-bab1-7e25fb1ba1bc.jpg",
       "SourceId": "CoreTraining.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\",
       "BasePath": "_content/CoreTraining.Web",
-      "RelativePath": "images/profile/096dcdd4-b72b-45ef-95a3-a52c2b290afc.jpg",
+      "RelativePath": "images/profile/9544fe69-22cd-4f47-bab1-7e25fb1ba1bc.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2071,15 +2071,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\profile\\096dcdd4-b72b-45ef-95a3-a52c2b290afc.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\profile\\9544fe69-22cd-4f47-bab1-7e25fb1ba1bc.jpg"
     },
     {
-      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\2cf97f35-cffe-422e-86a4-715fe0e1c941.jpg",
+      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\9ae87d5d-84f9-477c-90a2-91761ad9f801.jpg",
       "SourceId": "CoreTraining.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\",
       "BasePath": "_content/CoreTraining.Web",
-      "RelativePath": "images/profile/2cf97f35-cffe-422e-86a4-715fe0e1c941.jpg",
+      "RelativePath": "images/profile/9ae87d5d-84f9-477c-90a2-91761ad9f801.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2088,41 +2088,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\profile\\2cf97f35-cffe-422e-86a4-715fe0e1c941.jpg"
-    },
-    {
-      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\7bf08953-f12c-481d-bc05-deeec0bf6823.jpg",
-      "SourceId": "CoreTraining.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\",
-      "BasePath": "_content/CoreTraining.Web",
-      "RelativePath": "images/profile/7bf08953-f12c-481d-bc05-deeec0bf6823.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\profile\\7bf08953-f12c-481d-bc05-deeec0bf6823.jpg"
-    },
-    {
-      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\a7292ab8-4e05-46be-9746-37070cac4b06.jpg",
-      "SourceId": "CoreTraining.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\",
-      "BasePath": "_content/CoreTraining.Web",
-      "RelativePath": "images/profile/a7292ab8-4e05-46be-9746-37070cac4b06.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\profile\\a7292ab8-4e05-46be-9746-37070cac4b06.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\profile\\9ae87d5d-84f9-477c-90a2-91761ad9f801.jpg"
     },
     {
       "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\bfbbb1c5-b437-4f2f-a8f5-2767bd069d44.jpg",
@@ -2142,23 +2108,6 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\bfbbb1c5-b437-4f2f-a8f5-2767bd069d44.jpg"
     },
     {
-      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg",
-      "SourceId": "CoreTraining.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\",
-      "BasePath": "_content/CoreTraining.Web",
-      "RelativePath": "images/profile/ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\profile\\ceae7205-257d-4e4f-9a7c-8948e04b7a34.jpg"
-    },
-    {
       "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\defaultImg.jpg",
       "SourceId": "CoreTraining.Web",
       "SourceType": "Discovered",
@@ -2176,12 +2125,12 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\defaultImg.jpg"
     },
     {
-      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\images\\profile\\f845e1b8-51dc-437b-a5b8-06311bc62ed3.jpg",
+      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\layoutess.js",
       "SourceId": "CoreTraining.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\",
       "BasePath": "_content/CoreTraining.Web",
-      "RelativePath": "images/profile/f845e1b8-51dc-437b-a5b8-06311bc62ed3.jpg",
+      "RelativePath": "js/pages/layoutess.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2190,15 +2139,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\profile\\f845e1b8-51dc-437b-a5b8-06311bc62ed3.jpg"
+      "OriginalItemSpec": "wwwroot\\js\\pages\\layoutess.js"
     },
     {
-      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\layouts.js",
+      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\post-list111.js",
       "SourceId": "CoreTraining.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\",
       "BasePath": "_content/CoreTraining.Web",
-      "RelativePath": "js/pages/layouts.js",
+      "RelativePath": "js/pages/post-list111.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2207,24 +2156,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\pages\\layouts.js"
-    },
-    {
-      "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\post-lists.js",
-      "SourceId": "CoreTraining.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\",
-      "BasePath": "_content/CoreTraining.Web",
-      "RelativePath": "js/pages/post-lists.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\pages\\post-lists.js"
+      "OriginalItemSpec": "wwwroot\\js\\pages\\post-list111.js"
     },
     {
       "Identity": "D:\\OJTProject\\FinalOJT\\CoreTraining\\CoreTraining.Web\\CoreTraining.Web\\wwwroot\\js\\pages\\slick.js",
